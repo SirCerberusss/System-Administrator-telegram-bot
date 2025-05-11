@@ -1,0 +1,13 @@
+{
+    "TOKEN": "YOUR_BOT_TOKEN",
+    "ADMIN_IDS": [
+        123456789
+    ],
+    "SSH_CONFIG": {
+        "server1": {
+            "hostname": "your_server_ip",
+            "username": "your_username",
+            "password": "your_password"
+        }
+    }
+}

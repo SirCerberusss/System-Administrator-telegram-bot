@@ -23,8 +23,8 @@ Telegram бот для мониторинга и управления одним
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/your-username/sysadm-bot.git
-cd sysadm-bot
+git clone https://github.com/SirCerberusss/System-Administrator-telegram-bot.git
+cd System-Administrator-telegram-bot
 ```
 
 2. Установите зависимости:
@@ -32,20 +32,10 @@ cd sysadm-bot
 pip install -r requirements.txt
 ```
 
-3. Создайте файл `config.json` на основе примера:
-```json
-{
-    "TOKEN": "YOUR_BOT_TOKEN",
-    "ADMIN_IDS": [123456789],
-    "SSH_CONFIG": {
-        "server1": {
-            "hostname": "your_server_ip",
-            "username": "your_username",
-            "password": "your_password"
-        }
-    }
-}
-```
+3. Настройте файл `config.json`:
+   - Замените `YOUR_BOT_TOKEN` на токен вашего бота от @BotFather
+   - Укажите ваш Telegram ID в массиве `ADMIN_IDS`
+   - Настройте параметры SSH подключения к серверу
 
 4. Запустите бота:
 ```bash
@@ -80,7 +70,7 @@ python telegram_bot.py
 MIT
 
 ## Автор
-SirCerberus
+SirCerberusss
 
 ## Поддержка
 По всем вопросам обращайтесь в раздел Issues или напрямую к автору проекта.
